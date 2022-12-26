@@ -1,0 +1,374 @@
+:root{
+    --kfc-color: #c4112f;
+  }
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    font-size: 62.5%;
+  }
+  
+#header{
+    overflow: hidden;
+    padding: 10px 10px;
+    border:3px solid;
+    position:fixed;
+    width:100%;
+    min-width:400px;
+    background-color: white;
+  }
+  
+#header-img-container{
+    display: inline;
+    justify-content: center;
+  }
+#header-img{
+    height: inherit;
+    padding:10px;
+    margin-left:10px;
+    width:60px;
+    text-align: center;
+  }
+  
+#nav-bar-container{
+    display:inline;
+    float:right;
+    margin:30px 10px;
+  }
+  
+.nav-link{
+    text-decoration:none;
+    color: black;
+    font-size: 1.5rem;
+    padding:15px 13px;
+    margin:  0 10px;
+    font-family: "Audiowide", sans-serif;
+  }
+  
+.nav-link:hover{
+    cursor:pointer;
+    background-color: var(--kfc-color);
+    padding:6px;
+    border-radius:3px;
+  }
+  
+  
+  /*styling the main page*/
+  
+#main-page,#menu-page{
+    width:100%;
+    height:auto;
+    
+  }
+  
+#main-page-text{     
+    background-color:#e53238;
+    padding:20px;
+    width:100%;
+    height:auto;
+    text-align:center;
+    padding-top: 130px;
+  }
+#main-page-text h1,#menu-page h1{
+    font-family:Verdana,"Gill Sans";
+    letter-spacing:2px;
+    margin-bottom: 20px;
+    font-size:2.4rem; 
+    text-align:center;
+    
+  }
+  
+.button{
+    font-size:1.5rem;
+    background-color: white;
+    border-radius: 20px;
+    font-family: "Audiowide", sans-serif;
+    cursor:pointer;
+    padding: 5px;
+    margin: 5px;
+    text-decoration:none;
+    color:black;
+  }
+  
+.button:hover{
+    color: var(--kfc-color);
+  }
+
+#main-page-img{
+    width:100%;
+    background-image:URL("https://b.zmtcdn.com/data/pictures/2/16512172/9410759d611db9c62c3acc23c1f27e06.jpg");
+    height:100vh;
+    background-origin: content-box;
+    background-size:cover;
+  }
+  
+  /*styling the Menu page */
+  
+#menu-page{
+    border-bottom: 3px solid;
+  }
+#menu-page h1{
+    margin:15px;
+    text-decoration: 3px underline var(--kfc-color);
+  }
+  
+#video-box{
+     margin:40px 0;
+  }
+  
+#video{
+     width:80%;
+     min-width:300px;
+     height: 200px;
+     margin:10px auto;
+     display:block;
+     border:5px solid;
+     border-radius: 5px;
+  }
+  
+figcaption{
+    font-size:1rem;
+    text-align:center;
+    padding-bottom:7px;
+    font-family:"Roboto Mono",monospace;
+  }
+#menu-lists-header{
+    font-size:2rem;
+    font-family:"Audiowide", sans-serif;
+    border-left: 6px solid var(--kfc-color);
+    margin: 10px 20px;
+    padding:5px 10px;
+  }
+  
+#menu-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px 10px;
+    
+  }
+  
+.menu-cards{
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    border-radius:10px;
+    margin: 10px;
+  }
+  
+.menu-cards:hover{
+    width: 205px;
+    height: 205px;
+    cursor: pointer;
+  }
+.menu-photos{
+    width:150px;
+    height:auto;
+    display:block;
+    margin:10px auto;
+    border-radius:90px;
+  }
+  
+.menu-texts{
+    font-family:"Audiowide", sans-serif;
+    font-size:1.6rem;
+    text-align:center;
+  }
+  
+  /*styleing the Order page*/
+  
+#order-container{
+    border:3px solid;
+    margin:50px 40px;
+  }
+  
+  #order-container h1{
+    font-size: 2rem;
+     margin: 10px;
+  }
+#order-container h1,.order-button{
+    text-align:center;
+    padding: 20px 0; 
+    font-family:"Roboto Mono",monospace;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+  }
+hr{
+    color :var(--kfc-color);
+    margin: 0 20px;
+  }
+  
+#order-container p{
+    font-size:2rem;
+    margin: 10px 20px;
+  }
+  
+#buttons-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    }
+#buttons-container a{
+    font-size:1.6rem;
+    background-color: var(--kfc-color);
+    padding:10px;
+    text-decoration:none;
+    color:white;
+  }
+  
+#buttons-container a:hover{
+    font-size:1.7rem;
+  }
+  
+  /*stying the form*/
+#subcription{
+    margin-bottom: 50px;
+  }
+  
+#subcription-pic img{
+    width: 80%;
+    height:auto;
+    display:block;
+    margin: 0 auto;
+  }
+  
+#subcription-form{
+    height: auto;
+    width:80%;
+    margin: 0 auto;
+    background-color: #fbc160;
+  }
+  
+#subcription-form h2{
+    font-size: 2.5rem;
+    padding: 10px 20px;
+    font-family:Verdana,"Gill Sans";
+  }
+#subcription-form p{
+    font-size:2rem;
+    padding: 0 20px;
+  }
+#form{
+    font-size:3rem;
+    padding: 20px;
+  }
+  
+label{
+    display:block;
+  }
+  
+input{
+    width:100%;
+    margin: 10px 0;
+    padding:5px;
+  }
+  
+input[type="submit"] {
+    display: block;
+    margin: 1em auto;
+    height: 36px;
+    font-size: 1.1rem;
+    background-color: #e84443;
+    color: black;
+    min-width: 20%;
+    cursor: pointer;
+  }
+  
+  
+footer{
+    border: 3px solid;
+  }
+  
+footer p{
+    font-size: 1.5rem;
+    text-align:center;
+    padding: 30px;
+  }
+  
+footer p a{
+    text-decoration:none;
+    color:inherit;
+    font-size: 1.5rem;
+  }
+  
+footer p a:hover{
+    color: var(--kfc-color);
+  }
+  
+  /*tablets*/
+  @media screen and (min-width: 600px) {
+    .nav-link {
+      font-size:2.5rem;
+      padding:15px;
+    }
+    #header-img{
+      width:80px;
+    }
+    #main-page-text h1,#menu-page h1{
+    letter-spacing:4px;
+    font-size:3rem; 
+  }
+    .button{
+    font-size:2rem;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin: 10px;
+    }
+    
+   figcaption{
+    font-size:.3em;
+    padding-bottom:10px;
+  }
+  }
+  /*laptop and desktop*/
+    @media screen and (min-width: 768px){
+    #video{
+     width:50%;
+     height: 500px;
+  }
+   figcaption{
+    font-size:2rem;
+    padding-bottom:10px;
+  }
+   #menu-lists-header{
+    font-size:3rem;
+  
+  }
+   main-page-text h1,#menu-page h1{
+    letter-spacing:4px;
+    font-size:3.5rem;
+      }
+   #order-container{ 
+    border:3px solid;
+    margin:50px;
+  }
+    #subcription-pic img,#subcription-form{
+    width: 60%;
+      }
+      
+    footer p{
+    font-size: 2rem;
+    padding: 40px;
+  }
+  
+   footer p a,.menu-texts{
+    font-size: 2rem;
+  }
+   #order-container p,#subcription-form p{
+     font-size:2rem;}
+   #order-container p{
+     padding-top: 10px; 
+      }
+   #order-container h1{
+    font-size: 2.5rem;
+   }
+   .menu-cards{
+    height: 210px;
+      }
+    .menu-cards:hover{
+    height: 215px;
+      }
+    #order-container{
+      margin:50px 60px;
+      }
+  }
