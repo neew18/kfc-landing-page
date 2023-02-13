@@ -9,4 +9,3 @@ You can take a look at the demo of this page
 on [Codepen](https://codepen.io/neew20/full/LYBpVxW) and
 on [Netlify](https://kfc-product-landing-page.netlify.app/#)
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/0fab5c67-bf43-47ce-921c-7912bc34d118/deploy-status)](https://app.netlify.com/sites/kfc-product-landing-page/deploys)
